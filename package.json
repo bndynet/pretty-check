@@ -8,10 +8,11 @@
     "dist"
   ],
   "scripts": {
-    "start": "concurrently \"npm run build && npm run watch:build\" \"npm run server\"",
+    "start": "concurrently \"npm run build:dev && npm run watch:dev\" \"npm run server\"",
     "server": "lite-server -c ./bs-config.json",
     "build": "node-sass src -o dist",
-    "watch:build": "node-sass src -wo dist",
+    "build:dev": "node-sass src -o docs",
+    "watch:dev": "node-sass src -wo docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
