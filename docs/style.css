@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: #ddeedd;
+}
+hr {
+    margin: 15px 0;
+}
+.forkme {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+fieldset {
+    border-radius: 5px;
+    border-color: #ddeedd;
+    margin-bottom: 15px;
+}
+
+fieldset div {
+    margin: 5px;
+}

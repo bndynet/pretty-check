@@ -1,0 +1,6 @@
+{
+    "port": 3000,
+    "startPath": "/docs/index.html",
+    "files": ["./**/*.{html,htm,css,js}"],
+    "server": { "baseDir": "./" }
+}
