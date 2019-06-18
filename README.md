@@ -1,5 +1,7 @@
 # pretty-check
 
+Styles for pertty checkbox and radio.
+
 ## Quick start
 
 ```html

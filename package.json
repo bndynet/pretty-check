@@ -10,7 +10,7 @@
   "scripts": {
     "start": "concurrently \"npm run build:dev && npm run watch:dev\" \"npm run server\"",
     "server": "lite-server -c ./bs-config.json",
-    "build": "node-sass src -o dist",
+    "build": "node-sass src -o dist && node-sass src -o docs",
     "build:dev": "node-sass src -o docs",
     "watch:dev": "node-sass src -wo docs",
     "test": "echo \"Error: no test specified\" && exit 1"
