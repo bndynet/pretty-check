@@ -1,6 +1,7 @@
 # pretty-check
 
 Styles for pertty checkbox and radio.
+[DEMO](https://bndynet.github.io/pretty-check/)
 
 ## Quick start
 
