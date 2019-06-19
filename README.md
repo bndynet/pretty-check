@@ -8,14 +8,14 @@ Styles for pertty checkbox and radio.
 ```html
 <link rel="stylesheet" href="https://unpkg.com/@bndynet/pretty-check/dist/pretty-check.css">
 
-<div class="checkbox checkbox-[flat|circle] checkbox-[dark|primary|success|...]">
+<div class="checkbox checkbox-animated checkbox-[flat|circle] checkbox-[dark|primary|success|...]">
     <input id="chk" type="checkbox">
     <label for="chk">
         Label for checkbox
     </label>
 </div>
 
-<div class="radio radio-[dark|primary|success|...]">
+<div class="radio radio-animated radio-[dark|primary|success|...]">
     <input id="rd1" type="radio">
     <label for="rd1">
         Label for radio
