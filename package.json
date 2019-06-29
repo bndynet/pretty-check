@@ -1,6 +1,6 @@
 {
   "name": "@bndynet/pretty-check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "pretty checkbox and radio",
   "main": "index.js",
   "files": [
